@@ -4,10 +4,51 @@
     box-sizing: border-box;
 }
 
+/* HEADER  */
 #upper-header {
     background-color: black;
 }
+#logo-sony {
+    width: 150px;
+    margin: 5px;
+}
+.MY-btn-outline-success {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+#MY-lens {
+    transform: scale(0.5);
+}
 
+/* MAIN  */
+
+#jumbo {
+    object-fit: cover;
+    position: relative;
+}
+#returnal-text {
+    width: 400px;
+    left: 5%;
+    bottom: 40%;
+}
+#rompi {
+    left: 5%;
+    bottom: 30%;
+}
+#rialzati {
+    left: 5%;
+    bottom: 20%;
+}
+.foto-under-jumbo {
+    margin: 10px 0px;
+}
+#first-foto {
+    border: solid 2px blue;
+    padding: 2px;
+}
+
+/* generali */
 .flex-end {
     display: flex;
     flex-direction: row;
@@ -17,13 +58,14 @@
 img {
     width: 100%;
 }
-#logo-sony {
-    width: 150px;
-    margin: 5px;
+
+.white {
+    color: white;
 }
 
-.MY-btn-outline-success {
-    background-color: black;
-    color: white;
-    border-radius: 30px;
+.absolute {
+    position: absolute;
+}
+.border-radius {
+    border-radius: 15px;
 }
