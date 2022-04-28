@@ -48,6 +48,10 @@
     padding: 2px;
 }
 
+/* stili sezione Ecco la PlayStation */
+/* .immagini-ecco {
+    margin: 0 2%;
+} */
 /* generali */
 .flex-end {
     display: flex;
@@ -86,18 +90,13 @@ img {
 .blue {
     color: rgb(48, 124, 238);
 }
+.grey {
+    color: grey;
+}
 .blue-back {
     background-color: rgb(48, 124, 238);
 }
+.black-back {
+    background-color: rgb(58, 53, 53);
+}
 
-/* stile grandezza testo  */
-/* .text-title {
-    font-size: 3.5vw;
-}
-.text-subtitle {
-    font-size: 1.7vw;
-    color: rgb(85, 84, 84);
-}
-.blue-subtitle {
-    font-size: 1.3vw;
-} */
