@@ -89,6 +89,10 @@ img {
     border-radius: 15px;
 }
 
+.text-center {
+    text-align: center;
+}
+
 
 /* stile colori  */
 .white {
@@ -111,3 +115,10 @@ img {
     background-color: rgb(58, 53, 53);
 }
 
+
+/* MEDIA QUERY */
+@media screen and (max-width: 768px) {
+    .sparisce {
+        display: none; 
+    }
+}
