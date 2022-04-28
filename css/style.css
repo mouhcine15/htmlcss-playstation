@@ -111,6 +111,9 @@ img {
 .blue-back {
     background-color: rgb(48, 124, 238);
 }
+.dark-blue-back {
+    background-color: rgb(9, 9, 95);
+}
 .black-back {
     background-color: rgb(58, 53, 53);
 }
