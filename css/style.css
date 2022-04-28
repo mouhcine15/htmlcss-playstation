@@ -55,18 +55,19 @@
     justify-content: end;
 }
 
-.flex-center {
+.flex-center-row {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-img {
-    width: 100%;
+.flex-center-column {
+    display: flex;
+    align-items: center;
 }
 
-.white {
-    color: white;
+img {
+    width: 100%;
 }
 
 .absolute {
@@ -75,3 +76,28 @@ img {
 .border-radius {
     border-radius: 15px;
 }
+
+
+/* stile colori  */
+.white {
+    color: white;
+}
+
+.blue {
+    color: rgb(48, 124, 238);
+}
+.blue-back {
+    background-color: rgb(48, 124, 238);
+}
+
+/* stile grandezza testo  */
+/* .text-title {
+    font-size: 3.5vw;
+}
+.text-subtitle {
+    font-size: 1.7vw;
+    color: rgb(85, 84, 84);
+}
+.blue-subtitle {
+    font-size: 1.3vw;
+} */
