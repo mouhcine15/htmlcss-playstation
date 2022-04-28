@@ -48,6 +48,15 @@
     padding: 2px;
 }
 
+/* FOOTER  */
+.logo-footer {
+    width: 100px;
+}
+
+div ul li {
+    list-style-type: none;
+}
+
 /* stili sezione Ecco la PlayStation */
 /* .immagini-ecco {
     margin: 0 2%;
