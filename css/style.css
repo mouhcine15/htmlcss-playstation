@@ -38,9 +38,20 @@ main {
 .foto-under-jumbo {
     margin: 10px 0px;
 }
+.foto-under-jumbo:hover {
+    transform: translateY(-10px);
+    transition-duration: 1s;
+  }
 #first-foto {
     border: solid 2px blue;
     padding: 2px;
+}
+
+.immagini-ecco {
+    opacity: 0.7;
+}
+.immagini-ecco:hover {
+    opacity: 1;
 }
 
 #jumbo2 {
@@ -143,6 +154,9 @@ img {
 
 .border-radius {
     border-radius: 15px;
+}
+.border-radius-btn {
+    border-radius: 30px;
 }
 
 .text-center {
