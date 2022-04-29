@@ -23,23 +23,12 @@
 
 /* MAIN  */
 
-#jumbo {
-    object-fit: cover;
-    position: relative;
+#jumbo1 {
+    background-image: url(../img/jumbo-bg.png);
+    height: 675px;
+    background-position: center;
 }
-#returnal-text {
-    width: 400px;
-    left: 5%;
-    bottom: 40%;
-}
-#rompi {
-    left: 5%;
-    bottom: 30%;
-}
-#rialzati {
-    left: 5%;
-    bottom: 20%;
-}
+
 .foto-under-jumbo {
     margin: 10px 0px;
 }
@@ -57,10 +46,62 @@ div ul li {
     list-style-type: none;
 }
 
+/* margini */
+.margin-20 {
+    margin-top: 20px;
+}
+.margin-30 {
+    margin-top: 30px;
+}
+.margin-50 {
+    margin-top: 50px;
+}
+.margin-100 {
+    margin-top: 100px;
+}
+.margin-300 {
+    margin-top: 300px;
+}
+.margin-bot-50 {
+    margin-bottom: 50px;
+}
+
+
+/* stile colori  */
+.white {
+    color: white;
+}
+.blue {
+    color: rgb(48, 124, 238);
+}
+.grey {
+    color: grey;
+}
+.grey-back {
+    background-color: grey;
+}
+.blue-back {
+    background-color: rgb(48, 124, 238);
+}
+.dark-blue-back {
+    background-color: rgb(9, 9, 95);
+}
+.black-back {
+    background-color: rgb(58, 53, 53);
+}
+.red-back {
+    background-color: rgb(184, 43, 43);
+}
+
+
+
 /* stili sezione Ecco la PlayStation */
 /* .immagini-ecco {
     margin: 0 2%;
 } */
+
+
+
 /* generali */
 .flex-end {
     display: flex;
@@ -103,29 +144,6 @@ img {
 }
 
 
-/* stile colori  */
-.white {
-    color: white;
-}
-
-.blue {
-    color: rgb(48, 124, 238);
-}
-.grey {
-    color: grey;
-}
-.grey-back {
-    background-color: grey;
-}
-.blue-back {
-    background-color: rgb(48, 124, 238);
-}
-.dark-blue-back {
-    background-color: rgb(9, 9, 95);
-}
-.black-back {
-    background-color: rgb(58, 53, 53);
-}
 
 
 /* MEDIA QUERY */
@@ -135,19 +153,3 @@ img {
     }
 }
 
-/* margini */
-.margin-20 {
-    margin-top: 20px;
-}
-.margin-30 {
-    margin-top: 30px;
-}
-.margin-50 {
-    margin-top: 50px;
-}
-.margin-100 {
-    margin-top: 100px;
-}
-.margin-bot-50 {
-    margin-bottom: 50px;
-}
